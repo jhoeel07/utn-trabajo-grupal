@@ -185,11 +185,28 @@ a {
 
 
 
-@media (max-width: 860px) {
+
+
+/* seccion de grilla*/
+@media (max-width: 1300px) {
+    .cont-proyectos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+    .cont-proyectos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .cont-footer {
         display: grid;
         grid-template-columns: 1fr;
         text-align: center;
     }
 }
+
+
+
 
